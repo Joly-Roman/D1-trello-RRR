@@ -30,7 +30,7 @@ def read():
             print('\t' + 'Нет задач!')
             continue
         for task in task_data:
-            print('\t' + task['name'])
+            print('\t' + task['name'] + task['id'])
 
 
 def create_task(task_name, column_name):
